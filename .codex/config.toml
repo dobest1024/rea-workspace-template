@@ -1,0 +1,7 @@
+# 使用 PATH 中已安装的 REA；只对本项目配置 MCP。
+# 项目需被客户端信任后加载。这里不改变模型或用户的审批/沙盒偏好。
+[mcp_servers.rea]
+command = "rea"
+args = ["--mcp"]
+startup_timeout_sec = 30
+tool_timeout_sec = 600

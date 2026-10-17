@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(/target/**)",
+      "Edit(/notes/**)",
+      "Edit(/work/**)",
+      "Bash(file *)",
+      "Bash(strings *)",
+      "Bash(xxd *)",
+      "Bash(rg *)"
+    ],
+    "deny": [
+      "Edit(/target/**)",
+      "Edit(/notes/target-manifest.json)",
+      "Read(**/.env)",
+      "Read(**/.env.*)",
+      "Read(~/.ssh/**)",
+      "WebFetch",
+      "WebSearch",
+      "Bash(curl *)",
+      "Bash(wget *)"
+    ]
+  }
+}
