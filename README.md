@@ -1,5 +1,7 @@
 # REA Workspace Template
 
+[![Featured by Awesome REA](https://raw.githubusercontent.com/reacher-z/Awesome-REA/477658fa73f6860e86cd1fc526657c2efdc25194/assets/featured-by-awesome-rea-inline.svg)](https://awesomerea.org/resources/rea-workspace-template/)
+
 一个目标一个工作区：保留原件，在副本上分析，用证据支撑结论。适用于源码、APK、原生二进制、JavaScript/Electron、HAR 和未知文件格式。
 
 参考 [zodchiii 的帖子](https://x.com/zodchiii/status/2109623079429460478)，按 [REA 官方文档](https://github.com/morluto/rea) 和本机 REA 6.4.0 的实际命令整理。模型沿用你自己的设置；帖子中的模型规格、成本与耗时没有作为本模板的承诺。
